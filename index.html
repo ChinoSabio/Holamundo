@@ -14,21 +14,20 @@ false);
 function onDeviceReady() {
 navigator.notification.alert("Ya Funciona");
 }
-función alertDismissed ()  { 
-    / / hacer algo 
-} 
-
-navegante . notificación . alerta ( 
-    "Tú eres el ganador! ' ,   / / mensaje 
-    alertDismissed ,          / / callback 
-    'Game Over' ,             / / title 
-    'Done'                   / / buttonname 
-);
+función showAlert ()  { 
+        navegador . notificación . alerta ( 
+            "Tú eres el ganador! ' ,   / / mensaje 
+            alertDismissed ,          / / callback 
+            'Game Over' ,             / / title 
+            'Done'                   / / buttonname 
+        ); 
+    } 
 </script>
 
 </head>
 <body onload="onBodyLoad()">
-<h1>HelloWorld2</h1>
-<p>This is a sample PhoneGap application.</p>
+<h1>Hola Mundo</h1>
+<p>Mi Aplicacion</p>
+<p> <a  href = "#"  onclick = " showAlert ();  regreso  falsa ; " > Mostrar alerta </ a> </ p> 
 </body>
 </html>
